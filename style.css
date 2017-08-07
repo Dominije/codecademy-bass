@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.jumbotron {
+  height:500px;
+  background:url("https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg") no-repeat center center;
+  background-size:cover;
+  color:white;
+  margin-bottom:0;
+}
+
+.jumbotron ul {
+  text-align:right;
+  color:white;
+}
+
+.jumbotron li {
+  display:inline-block;
+}
+
+#download {
+  background-color:#FF003D;
+  border-radius:0;
+  color:white;
+  border:none;
+  padding: 10px 20px;
+  font-weight:bold;
+}
+
+#download:hover {
+  color:#000000;
+}
+
+.supporting-1 {
+  Color:white;
+  background-color:#131218;
+  padding:100px;
+}
+
+.supporting-2 {
+  color:white;
+  background-color:black;
+  padding:100px;
+}
+
+.supporting-3 {
+  Color:white;
+  background-color:#131218;
+  padding:100px;
+}
+
+.supporting-4 {
+  background:url("https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg") no-repeat center center;
+  background-size:cover;
+  color:white;
+  text-align:center;
+  height:300px;
+}
+
+.supporting-4 div{
+  padding:100px;
+}
+
+.footer {
+  background-color:#000000;
+  Color:white;
+  text-align:center;
+}
+
+.footer h3{
+  font-size:16px;
+}
+
+.footer li{
+  list-style:none;
+}
+
+.footer li:hover{
+  list-style:none;
+  text-decoration:underline;
+  text-align:left;
+}
